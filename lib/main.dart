@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:fruit_hup/core/services/cache_service.dart';
 import 'package:fruit_hup/generated/l10n.dart';
 import 'package:fruit_hup/screens/splashandboarding/splash_screen.dart';
 
 import 'core/utils/app_route.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await CacheService.init();
   runApp(const MyApp());
 }
 
@@ -26,9 +28,7 @@ class MyApp extends StatelessWidget {
       supportedLocales: S.delegate.supportedLocales,
       locale: const Locale('ar'),
       title: 'Fruit Hup',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      ),
+      theme: ThemeData(fontFamily: "Cairo"),
       onGenerateRoute: onGenerateRoute,
       initialRoute: SplashScreen.routeName,
     );
