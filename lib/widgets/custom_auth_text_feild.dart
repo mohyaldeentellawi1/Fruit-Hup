@@ -9,18 +9,27 @@ class CustomAuthTextFeild extends StatelessWidget {
     this.suffixIcon,
     this.keyboardType,
     this.obscureTex = true,
+    this.onSaved,
   });
 
   final TextInputType? keyboardType;
   final String hintText;
   final Widget? suffixIcon;
   final bool obscureTex;
+  final void Function(String?)? onSaved;
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
       keyboardType: keyboardType,
       obscureText: obscureTex,
+      onSaved: onSaved,
+      validator: (value) {
+        if (value == null || value.isEmpty) {
+          return 'This field is required';
+        }
+        return null;
+      },
       decoration: InputDecoration(
         filled: true,
         fillColor: AppColors.textFeildColor,
