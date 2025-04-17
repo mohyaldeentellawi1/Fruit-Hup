@@ -30,9 +30,31 @@ class MessageLookup extends MessageLookupByLibrary {
     "We_offer_you_the_finest": MessageLookupByLibrary.simpleMessage(
       "We offer you the finest, carefully selected fruits. Check out the details, photos, and reviews to make sure you\'re choosing the perfect fruit.",
     ),
+    "create_an_account": MessageLookupByLibrary.simpleMessage(
+      "Create an account",
+    ),
+    "dont_have_an_account": MessageLookupByLibrary.simpleMessage(
+      "Don\'t have an account ?",
+    ),
+    "email": MessageLookupByLibrary.simpleMessage("Email"),
+    "forgot_password": MessageLookupByLibrary.simpleMessage(
+      "Forgot Password ?",
+    ),
     "get_started": MessageLookupByLibrary.simpleMessage("Get Started"),
     "hup": MessageLookupByLibrary.simpleMessage("HUB"),
+    "or": MessageLookupByLibrary.simpleMessage("Or"),
+    "password": MessageLookupByLibrary.simpleMessage("Password"),
     "search_shop": MessageLookupByLibrary.simpleMessage("Search & Shop"),
+    "sign_in": MessageLookupByLibrary.simpleMessage("Sign In"),
+    "sign_in_with_apple": MessageLookupByLibrary.simpleMessage(
+      "Sign in with Apple",
+    ),
+    "sign_in_with_facebook": MessageLookupByLibrary.simpleMessage(
+      "Sign in with Facebook",
+    ),
+    "sign_in_with_google": MessageLookupByLibrary.simpleMessage(
+      "Sign in with Google",
+    ),
     "skip": MessageLookupByLibrary.simpleMessage("Skip"),
     "welcome_to": MessageLookupByLibrary.simpleMessage("Welcome to"),
   };

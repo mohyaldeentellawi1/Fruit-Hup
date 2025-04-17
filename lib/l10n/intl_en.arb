@@ -6,5 +6,15 @@
   "Fruit": "FRUIT",
   "hup": "HUB",
   "We_offer_you_the_finest": "We offer you the finest, carefully selected fruits. Check out the details, photos, and reviews to make sure you're choosing the perfect fruit.",
-  "Discover_a_unique_shopping_experience_with_FruitHUB": "Discover a unique shopping experience with FruitHUB. Explore our wide selection of premium fresh fruits and get the best deals and highest quality."
+  "Discover_a_unique_shopping_experience_with_FruitHUB": "Discover a unique shopping experience with FruitHUB. Explore our wide selection of premium fresh fruits and get the best deals and highest quality.",
+  "sign_in": "Sign In",
+  "email": "Email",
+  "password": "Password",
+  "forgot_password": "Forgot Password ?",
+  "dont_have_an_account": "Don't have an account ?",
+  "create_an_account": "Create an account",
+  "or": "Or",
+  "sign_in_with_google": "Sign in with Google",
+  "sign_in_with_facebook": "Sign in with Facebook",
+  "sign_in_with_apple": "Sign in with Apple"
 }

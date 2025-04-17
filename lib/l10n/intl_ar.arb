@@ -6,5 +6,15 @@
   "Fruit": "FRUIT",
   "hup": "HUB",
   "We_offer_you_the_finest": "نقدم لك أفضل الفواكه المختارة بعناية. اطلع على التفاصيل والصور والتقييمات لتتأكد من اختيار الفاكهة المثالية",
-  "Discover_a_unique_shopping_experience_with_FruitHUB": "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية."
+  "Discover_a_unique_shopping_experience_with_FruitHUB": "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية.",
+  "sign_in": "تسجيل دخول",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "forgot_password": "نسيت كلمة المرور ؟",
+  "dont_have_an_account": "لا تمتلك حساب ؟",
+  "create_an_account": "قم بإنشاء حساب",
+  "or": "أو",
+  "sign_in_with_google": "تسجيل بواسطة جوجل",
+  "sign_in_with_facebook": "تسجيل بواسطة فيسبوك",
+  "sign_in_with_apple": "تسجيل بواسطة أبل"
 }

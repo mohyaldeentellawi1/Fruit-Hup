@@ -30,9 +30,29 @@ class MessageLookup extends MessageLookupByLibrary {
     "We_offer_you_the_finest": MessageLookupByLibrary.simpleMessage(
       "نقدم لك أفضل الفواكه المختارة بعناية. اطلع على التفاصيل والصور والتقييمات لتتأكد من اختيار الفاكهة المثالية",
     ),
+    "create_an_account": MessageLookupByLibrary.simpleMessage("قم بإنشاء حساب"),
+    "dont_have_an_account": MessageLookupByLibrary.simpleMessage(
+      "لا تمتلك حساب ؟",
+    ),
+    "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
+    "forgot_password": MessageLookupByLibrary.simpleMessage(
+      "نسيت كلمة المرور ؟",
+    ),
     "get_started": MessageLookupByLibrary.simpleMessage("ابدأ الآن"),
     "hup": MessageLookupByLibrary.simpleMessage("HUB"),
+    "or": MessageLookupByLibrary.simpleMessage("أو"),
+    "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
     "search_shop": MessageLookupByLibrary.simpleMessage("ابحث و تسوق"),
+    "sign_in": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
+    "sign_in_with_apple": MessageLookupByLibrary.simpleMessage(
+      "تسجيل بواسطة أبل",
+    ),
+    "sign_in_with_facebook": MessageLookupByLibrary.simpleMessage(
+      "تسجيل بواسطة فيسبوك",
+    ),
+    "sign_in_with_google": MessageLookupByLibrary.simpleMessage(
+      "تسجيل بواسطة جوجل",
+    ),
     "skip": MessageLookupByLibrary.simpleMessage("تخط"),
     "welcome_to": MessageLookupByLibrary.simpleMessage("مرحبًا بك في"),
   };
