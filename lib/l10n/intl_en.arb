@@ -11,10 +11,19 @@
   "email": "Email",
   "password": "Password",
   "forgot_password": "Forgot Password ?",
+  "forgot_passwordd": "Forgot Password",
+  "forgot_passworddd": "Forgot Password",
   "dont_have_an_account": "Don't have an account ?",
   "create_an_account": "Create an account",
   "or": "Or",
   "sign_in_with_google": "Sign in with Google",
   "sign_in_with_facebook": "Sign in with Facebook",
-  "sign_in_with_apple": "Sign in with Apple"
+  "sign_in_with_apple": "Sign in with Apple",
+  "new_account": "New Account",
+  "full_name": "Full Name",
+  "Bycreatinganaccountyouagreeto": "By creating an account you agree to",
+  "OurTermsandConditions": "Our Terms and Conditions",
+  "Createanewaccount": "Create a new account",
+  "Alreadyhaveanaccount": "Already have an account ?",
+  "Dontworryjustenteryourphonenumber": "Don't worry, just enter your phone number and we will send you the verification code."
 }

@@ -1,9 +1,12 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:fruit_hup/core/utils/app_colors.dart';
 import 'package:fruit_hup/core/utils/app_images.dart';
 import 'package:fruit_hup/core/utils/app_text_style.dart';
 import 'package:fruit_hup/core/widgets/custom_button.dart';
 import 'package:fruit_hup/generated/l10n.dart';
+import 'package:fruit_hup/screens/auth/forget_password_screen.dart';
+import 'package:fruit_hup/screens/auth/register_screen.dart';
 import 'package:fruit_hup/widgets/custom_auth_app_bar.dart';
 import 'package:fruit_hup/widgets/custom_social_buttom.dart';
 import 'package:fruit_hup/widgets/or_divider.dart';
@@ -57,10 +60,18 @@ class _LoginScreenState extends State<LoginScreen> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
-                  Text(
-                    S.of(context).forgot_password,
-                    style: AppTextStyle.semiBold13.copyWith(
-                      color: AppColors.primaryLightColor,
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.pushNamed(
+                        context,
+                        ForgetPasswordScreen.routeName,
+                      );
+                    },
+                    child: Text(
+                      S.of(context).forgot_password,
+                      style: AppTextStyle.semiBold13.copyWith(
+                        color: AppColors.primaryLightColor,
+                      ),
                     ),
                   ),
                 ],
@@ -76,6 +87,14 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   children: [
                     TextSpan(
+                      recognizer:
+                          TapGestureRecognizer()
+                            ..onTap = () {
+                              Navigator.pushNamed(
+                                context,
+                                RegisterScreen.routeName,
+                              );
+                            },
                       text: " ${S.of(context).create_an_account}",
                       style: AppTextStyle.semiBold16.copyWith(
                         color: AppColors.primaryColor,

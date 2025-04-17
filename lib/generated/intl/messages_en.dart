@@ -22,11 +22,26 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "Alreadyhaveanaccount": MessageLookupByLibrary.simpleMessage(
+      "Already have an account ?",
+    ),
+    "Bycreatinganaccountyouagreeto": MessageLookupByLibrary.simpleMessage(
+      "By creating an account you agree to",
+    ),
+    "Createanewaccount": MessageLookupByLibrary.simpleMessage(
+      "Create a new account",
+    ),
     "Discover_a_unique_shopping_experience_with_FruitHUB":
         MessageLookupByLibrary.simpleMessage(
           "Discover a unique shopping experience with FruitHUB. Explore our wide selection of premium fresh fruits and get the best deals and highest quality.",
         ),
+    "Dontworryjustenteryourphonenumber": MessageLookupByLibrary.simpleMessage(
+      "Don\'t worry, just enter your phone number and we will send you the verification code.",
+    ),
     "Fruit": MessageLookupByLibrary.simpleMessage("FRUIT"),
+    "OurTermsandConditions": MessageLookupByLibrary.simpleMessage(
+      "Our Terms and Conditions",
+    ),
     "We_offer_you_the_finest": MessageLookupByLibrary.simpleMessage(
       "We offer you the finest, carefully selected fruits. Check out the details, photos, and reviews to make sure you\'re choosing the perfect fruit.",
     ),
@@ -40,8 +55,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "forgot_password": MessageLookupByLibrary.simpleMessage(
       "Forgot Password ?",
     ),
+    "forgot_passwordd": MessageLookupByLibrary.simpleMessage("Forgot Password"),
+    "forgot_passworddd": MessageLookupByLibrary.simpleMessage(
+      "Forgot Password",
+    ),
+    "full_name": MessageLookupByLibrary.simpleMessage("Full Name"),
     "get_started": MessageLookupByLibrary.simpleMessage("Get Started"),
     "hup": MessageLookupByLibrary.simpleMessage("HUB"),
+    "new_account": MessageLookupByLibrary.simpleMessage("New Account"),
     "or": MessageLookupByLibrary.simpleMessage("Or"),
     "password": MessageLookupByLibrary.simpleMessage("Password"),
     "search_shop": MessageLookupByLibrary.simpleMessage("Search & Shop"),

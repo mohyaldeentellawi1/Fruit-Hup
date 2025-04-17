@@ -135,6 +135,26 @@ class S {
     );
   }
 
+  /// `Forgot Password`
+  String get forgot_passwordd {
+    return Intl.message(
+      'Forgot Password',
+      name: 'forgot_passwordd',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forgot Password`
+  String get forgot_passworddd {
+    return Intl.message(
+      'Forgot Password',
+      name: 'forgot_passworddd',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Don't have an account ?`
   String get dont_have_an_account {
     return Intl.message(
@@ -185,6 +205,66 @@ class S {
     return Intl.message(
       'Sign in with Apple',
       name: 'sign_in_with_apple',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `New Account`
+  String get new_account {
+    return Intl.message('New Account', name: 'new_account', desc: '', args: []);
+  }
+
+  /// `Full Name`
+  String get full_name {
+    return Intl.message('Full Name', name: 'full_name', desc: '', args: []);
+  }
+
+  /// `By creating an account you agree to`
+  String get Bycreatinganaccountyouagreeto {
+    return Intl.message(
+      'By creating an account you agree to',
+      name: 'Bycreatinganaccountyouagreeto',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Our Terms and Conditions`
+  String get OurTermsandConditions {
+    return Intl.message(
+      'Our Terms and Conditions',
+      name: 'OurTermsandConditions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create a new account`
+  String get Createanewaccount {
+    return Intl.message(
+      'Create a new account',
+      name: 'Createanewaccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Already have an account ?`
+  String get Alreadyhaveanaccount {
+    return Intl.message(
+      'Already have an account ?',
+      name: 'Alreadyhaveanaccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don't worry, just enter your phone number and we will send you the verification code.`
+  String get Dontworryjustenteryourphonenumber {
+    return Intl.message(
+      'Don\'t worry, just enter your phone number and we will send you the verification code.',
+      name: 'Dontworryjustenteryourphonenumber',
       desc: '',
       args: [],
     );

@@ -11,10 +11,19 @@
   "email": "البريد الإلكتروني",
   "password": "كلمة المرور",
   "forgot_password": "نسيت كلمة المرور ؟",
+  "forgot_passwordd": "نسيان كلمة المرور",
+  "forgot_passworddd": "نسيت كلمة المرور",
   "dont_have_an_account": "لا تمتلك حساب ؟",
   "create_an_account": "قم بإنشاء حساب",
   "or": "أو",
   "sign_in_with_google": "تسجيل بواسطة جوجل",
   "sign_in_with_facebook": "تسجيل بواسطة فيسبوك",
-  "sign_in_with_apple": "تسجيل بواسطة أبل"
+  "sign_in_with_apple": "تسجيل بواسطة أبل",
+  "new_account": "حساب جديد",
+  "full_name": "الاسم الكامل",
+  "Bycreatinganaccountyouagreeto": "من خلال إنشاء حساب ، فإنك توافق على",
+  "OurTermsandConditions": " الشروط والأحكام الخاصة بنا",
+  "Createanewaccount": "إنشاء حساب جديد",
+  "Alreadyhaveanaccount": "تمتلك حساب بالفعل ؟",
+  "Dontworryjustenteryourphonenumber": "لا تقلق ، ما عليك سوى كتابة رقم هاتفك وسنرسل رمز التحقق."
 }

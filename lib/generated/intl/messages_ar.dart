@@ -22,11 +22,26 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "Alreadyhaveanaccount": MessageLookupByLibrary.simpleMessage(
+      "تمتلك حساب بالفعل ؟",
+    ),
+    "Bycreatinganaccountyouagreeto": MessageLookupByLibrary.simpleMessage(
+      "من خلال إنشاء حساب ، فإنك توافق على",
+    ),
+    "Createanewaccount": MessageLookupByLibrary.simpleMessage(
+      "إنشاء حساب جديد",
+    ),
     "Discover_a_unique_shopping_experience_with_FruitHUB":
         MessageLookupByLibrary.simpleMessage(
           "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية.",
         ),
+    "Dontworryjustenteryourphonenumber": MessageLookupByLibrary.simpleMessage(
+      "لا تقلق ، ما عليك سوى كتابة رقم هاتفك وسنرسل رمز التحقق.",
+    ),
     "Fruit": MessageLookupByLibrary.simpleMessage("FRUIT"),
+    "OurTermsandConditions": MessageLookupByLibrary.simpleMessage(
+      " الشروط والأحكام الخاصة بنا",
+    ),
     "We_offer_you_the_finest": MessageLookupByLibrary.simpleMessage(
       "نقدم لك أفضل الفواكه المختارة بعناية. اطلع على التفاصيل والصور والتقييمات لتتأكد من اختيار الفاكهة المثالية",
     ),
@@ -38,8 +53,16 @@ class MessageLookup extends MessageLookupByLibrary {
     "forgot_password": MessageLookupByLibrary.simpleMessage(
       "نسيت كلمة المرور ؟",
     ),
+    "forgot_passwordd": MessageLookupByLibrary.simpleMessage(
+      "نسيان كلمة المرور",
+    ),
+    "forgot_passworddd": MessageLookupByLibrary.simpleMessage(
+      "نسيت كلمة المرور",
+    ),
+    "full_name": MessageLookupByLibrary.simpleMessage("الاسم الكامل"),
     "get_started": MessageLookupByLibrary.simpleMessage("ابدأ الآن"),
     "hup": MessageLookupByLibrary.simpleMessage("HUB"),
+    "new_account": MessageLookupByLibrary.simpleMessage("حساب جديد"),
     "or": MessageLookupByLibrary.simpleMessage("أو"),
     "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
     "search_shop": MessageLookupByLibrary.simpleMessage("ابحث و تسوق"),
