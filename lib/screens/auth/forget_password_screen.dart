@@ -38,7 +38,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
               ),
               SizedBox(height: 33),
               CustomAuthTextFeild(
-                hintText: "Phone Number",
+                hintText: S.of(context).phone_number,
                 keyboardType: TextInputType.number,
               ),
               SizedBox(height: 50),

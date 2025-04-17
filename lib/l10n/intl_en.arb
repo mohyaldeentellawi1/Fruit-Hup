@@ -25,5 +25,6 @@
   "OurTermsandConditions": "Our Terms and Conditions",
   "Createanewaccount": "Create a new account",
   "Alreadyhaveanaccount": "Already have an account ?",
-  "Dontworryjustenteryourphonenumber": "Don't worry, just enter your phone number and we will send you the verification code."
+  "Dontworryjustenteryourphonenumber": "Don't worry, just enter your phone number and we will send you the verification code.",
+  "phone_number": "Phone Number"
 }

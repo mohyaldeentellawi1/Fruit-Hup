@@ -65,6 +65,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "new_account": MessageLookupByLibrary.simpleMessage("حساب جديد"),
     "or": MessageLookupByLibrary.simpleMessage("أو"),
     "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+    "phone_number": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
     "search_shop": MessageLookupByLibrary.simpleMessage("ابحث و تسوق"),
     "sign_in": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
     "sign_in_with_apple": MessageLookupByLibrary.simpleMessage(

@@ -269,6 +269,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Phone Number`
+  String get phone_number {
+    return Intl.message(
+      'Phone Number',
+      name: 'phone_number',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

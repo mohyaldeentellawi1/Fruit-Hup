@@ -25,5 +25,6 @@
   "OurTermsandConditions": " الشروط والأحكام الخاصة بنا",
   "Createanewaccount": "إنشاء حساب جديد",
   "Alreadyhaveanaccount": "تمتلك حساب بالفعل ؟",
-  "Dontworryjustenteryourphonenumber": "لا تقلق ، ما عليك سوى كتابة رقم هاتفك وسنرسل رمز التحقق."
+  "Dontworryjustenteryourphonenumber": "لا تقلق ، ما عليك سوى كتابة رقم هاتفك وسنرسل رمز التحقق.",
+  "phone_number": "رقم الهاتف"
 }
