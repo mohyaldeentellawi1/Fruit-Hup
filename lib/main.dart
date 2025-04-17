@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:fruit_hup/core/services/cache_service.dart';
+import 'package:fruit_hup/core/utils/app_colors.dart';
 import 'package:fruit_hup/generated/l10n.dart';
 import 'package:fruit_hup/screens/splashandboarding/splash_screen.dart';
 
@@ -28,7 +29,12 @@ class MyApp extends StatelessWidget {
       supportedLocales: S.delegate.supportedLocales,
       locale: const Locale('ar'),
       title: 'Fruit Hup',
-      theme: ThemeData(fontFamily: "Cairo"),
+
+      theme: ThemeData(
+        fontFamily: "Cairo",
+        scaffoldBackgroundColor: Colors.white,
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primaryColor),
+      ),
       onGenerateRoute: onGenerateRoute,
       initialRoute: SplashScreen.routeName,
     );
